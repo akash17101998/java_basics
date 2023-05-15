@@ -17,5 +17,6 @@ public class Main {
         dog.eating();
 //        dog.color = "Black";
         System.out.println(dog.color);
+        dog.show();
     }
 }
