@@ -6,5 +6,6 @@ public class Inherit {
         public void eating(){
             System.out.println("Animal is eating");
         }
+
 }
 

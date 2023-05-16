@@ -5,6 +5,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+
         Student student = new Student("Mohan");
         Student student1 = new Student();
         student.id = 1;
@@ -18,5 +19,15 @@ public class Main {
 //        dog.color = "Black";
         System.out.println(dog.color);
         dog.show();
+
+        Oriding oriding = new Oriding();
+        Child child = new Child();    // we can also call parent method or can call the child method
+        child.m1();
+        oriding.m1();
+
+        AbstractChild abstractChild = new AbstractChild();
+        abstractChild.show();
+        abstractChild.set();
+
     }
 }
