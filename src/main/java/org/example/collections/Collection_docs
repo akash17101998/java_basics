@@ -1,0 +1,21 @@
+ // collection is the group of objects in a single unit
+    // Framework is set of class and interfaces which provide a basic architecture
+    // collection framework is the JAVA API which provide ach. to store and manipulate group of objects
+    // example set,queue,collection,list,map etc
+    // collection:- list(index and allow duplicates) and set(no index and not allow duplicates)
+    // list :- arraylist(dynamic array, non thread safe) , LinkedList(Double link list), Vector (dynamic array,thread safe)->stack is child of vector
+    // Set :- hashSet, SortedSet
+    // hashSet provide the functionality-> LinkedHashSet(order preserved but duplicates not allow)
+    // SortedSet provide the functionality-> TreeSet(asc. order sorted, custom logic on object
+
+    // to traverse the element we use "iterable" that is the parent of all, we use for-each or iterator to traverse the elements
+    // "iterator" basically traverse the elements from forward direction
+    // To traverse forward and backward direction we use "ListIterator" and only List use this feature not Set
+    // **Note:- to traverse SET we use Iterator and iterable and to traverse LIST we use Iterable,Iterator, ListIterator
+    // Iterable is in version 1.2 and vector in version 1.0, so to traverse vector in 1.0 we use "enumeration"
+
+    Arrarylist, linkList, vector, stack, hashset, linkhashset, treeset all are class and others are interface
+
+    Map (interface)-> HashMap(class) and SortedMAp (interface)
+    hashmap-> linkedhashmap(class)  no order
+    sortedmap->treemap(class)
