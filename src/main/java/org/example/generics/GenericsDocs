@@ -1,0 +1,7 @@
+Generics is used for the type safety, we can define the type of the data that is stored in list in <> this and if we not define the
+type it will accept all the types
+
+We can also mention generic type with class,
+example :- class demo<T>{}
+so when we create object of class, we can define the type of the data members
+demo<String> d1 = new demo<>();
