@@ -5,7 +5,7 @@ public class Poly {
 //    1. Static type/ static binding/ compile time polymorphism
 //    ex:- method m1(int i)   // used in method overloading
 //        method m1(double i)
-//            m1(2),m1(2.3)  // during compile time the compile know which method is used
+//            m1(2),m1(2.3)  // during compile time the compiler know which method is used
 
     public void overload(){
         System.out.println("without parameter");

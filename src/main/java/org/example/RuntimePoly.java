@@ -6,7 +6,7 @@ public class RuntimePoly {
 //    ex:- method m1()           // parent class
 //        method m1()             // child class
 //
-//    m1()   // the compiler dont know which method is used , so during runtime we call the method through the child class or parent class
+//    m1()   // the compiler don't know which method is used , so during runtime we call the method through the child class or parent class
 //
 
 

@@ -2,9 +2,9 @@ package org.example;
 
 public interface Parent {
 // by using interface we can achieve 100% of abstraction
-    int i =43; // this is not normal var like class var. it contain public static final
+    int i =43; // this is not normal var like class var. it contain "public static final"
 
-    void cal();   // bydefault it contains public abstact
+    void cal();   // bydefault it contains "public abstact"
 }
 
 class Child1 implements Parent{
